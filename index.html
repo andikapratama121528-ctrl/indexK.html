@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Web Pertama Saya</title>
+    <style>
+        /* CSS Sederhana untuk mempercantik tampilan */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        p {
+            color: #7f8c8d;
+            font-size: 16px;
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Halo, Dunia!</h1>
+        <p>Ini adalah halaman web sederhana yang dibuat menggunakan HTML, CSS, dan sedikit JavaScript.</p>
+        <hr>
+        <p>Klik tombol di bawah ini untuk melihat reaksinya:</p>
+        <button onclick="sapaPengguna()">Klik Saya!</button>
+    </div>
+
+    <script>
+        // JavaScript untuk memberikan interaksi pada tombol
+        function sapaPengguna() {
+            alert("Terima kasih sudah mengklik tombol ini! Semangat belajarnya! 🚀");
+        }
+    </script>
+
+</body>
+</html>
